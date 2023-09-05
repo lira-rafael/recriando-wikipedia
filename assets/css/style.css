@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 10px;
+    padding-left: 650px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.bar .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.bar .menu li a {
+    padding: 9px 15px;
+    color: #2909e3;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bar .menu li a:hover {
+    color: rgb(245, 245, 245);
+    background-color: #2909e2;
+    transition: 0.5s;
+}
+
+.content {
+    max-width: 1500px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.footer h3 {
+    text-align: center;
+    color: #2909e2;
+}
+
+.voltarBox {
+    border-left: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+.logo {
+    margin: 0px;
+}
